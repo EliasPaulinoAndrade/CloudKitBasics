@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3FCD76421FB98A600163476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD76321FB98A600163476 /* AppDelegate.swift */; };
+		E3FCD76621FB98A600163476 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD76521FB98A600163476 /* ViewController.swift */; };
+		E3FCD76921FB98A600163476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FCD76721FB98A600163476 /* Main.storyboard */; };
+		E3FCD76B21FB98A800163476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FCD76A21FB98A800163476 /* Assets.xcassets */; };
+		E3FCD76E21FB98A800163476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FCD76C21FB98A800163476 /* LaunchScreen.storyboard */; };
+		E3FCD77921FB98A800163476 /* AprendendoCloudkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD77821FB98A800163476 /* AprendendoCloudkitTests.swift */; };
+		E3FCD78421FB98A800163476 /* AprendendoCloudkitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD78321FB98A800163476 /* AprendendoCloudkitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3FCD77521FB98A800163476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3FCD75821FB98A600163476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3FCD75F21FB98A600163476;
+			remoteInfo = AprendendoCloudkit;
+		};
+		E3FCD78021FB98A800163476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3FCD75821FB98A600163476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3FCD75F21FB98A600163476;
+			remoteInfo = AprendendoCloudkit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3FCD76021FB98A600163476 /* AprendendoCloudkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AprendendoCloudkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FCD76321FB98A600163476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3FCD76521FB98A600163476 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3FCD76821FB98A600163476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3FCD76A21FB98A800163476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3FCD76D21FB98A800163476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3FCD76F21FB98A800163476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3FCD77421FB98A800163476 /* AprendendoCloudkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AprendendoCloudkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FCD77821FB98A800163476 /* AprendendoCloudkitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendendoCloudkitTests.swift; sourceTree = "<group>"; };
+		E3FCD77A21FB98A800163476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3FCD77F21FB98A800163476 /* AprendendoCloudkitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AprendendoCloudkitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FCD78321FB98A800163476 /* AprendendoCloudkitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendendoCloudkitUITests.swift; sourceTree = "<group>"; };
+		E3FCD78521FB98A800163476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3FCD75D21FB98A600163476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FCD77121FB98A800163476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FCD77C21FB98A800163476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3FCD75721FB98A600163476 = {
+			isa = PBXGroup;
+			children = (
+				E3FCD76221FB98A600163476 /* AprendendoCloudkit */,
+				E3FCD77721FB98A800163476 /* AprendendoCloudkitTests */,
+				E3FCD78221FB98A800163476 /* AprendendoCloudkitUITests */,
+				E3FCD76121FB98A600163476 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3FCD76121FB98A600163476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3FCD76021FB98A600163476 /* AprendendoCloudkit.app */,
+				E3FCD77421FB98A800163476 /* AprendendoCloudkitTests.xctest */,
+				E3FCD77F21FB98A800163476 /* AprendendoCloudkitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3FCD76221FB98A600163476 /* AprendendoCloudkit */ = {
+			isa = PBXGroup;
+			children = (
+				E3FCD76321FB98A600163476 /* AppDelegate.swift */,
+				E3FCD76521FB98A600163476 /* ViewController.swift */,
+				E3FCD76721FB98A600163476 /* Main.storyboard */,
+				E3FCD76A21FB98A800163476 /* Assets.xcassets */,
+				E3FCD76C21FB98A800163476 /* LaunchScreen.storyboard */,
+				E3FCD76F21FB98A800163476 /* Info.plist */,
+			);
+			path = AprendendoCloudkit;
+			sourceTree = "<group>";
+		};
+		E3FCD77721FB98A800163476 /* AprendendoCloudkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3FCD77821FB98A800163476 /* AprendendoCloudkitTests.swift */,
+				E3FCD77A21FB98A800163476 /* Info.plist */,
+			);
+			path = AprendendoCloudkitTests;
+			sourceTree = "<group>";
+		};
+		E3FCD78221FB98A800163476 /* AprendendoCloudkitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3FCD78321FB98A800163476 /* AprendendoCloudkitUITests.swift */,
+				E3FCD78521FB98A800163476 /* Info.plist */,
+			);
+			path = AprendendoCloudkitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3FCD75F21FB98A600163476 /* AprendendoCloudkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3FCD78821FB98A800163476 /* Build configuration list for PBXNativeTarget "AprendendoCloudkit" */;
+			buildPhases = (
+				E3FCD75C21FB98A600163476 /* Sources */,
+				E3FCD75D21FB98A600163476 /* Frameworks */,
+				E3FCD75E21FB98A600163476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AprendendoCloudkit;
+			productName = AprendendoCloudkit;
+			productReference = E3FCD76021FB98A600163476 /* AprendendoCloudkit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3FCD77321FB98A800163476 /* AprendendoCloudkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3FCD78B21FB98A800163476 /* Build configuration list for PBXNativeTarget "AprendendoCloudkitTests" */;
+			buildPhases = (
+				E3FCD77021FB98A800163476 /* Sources */,
+				E3FCD77121FB98A800163476 /* Frameworks */,
+				E3FCD77221FB98A800163476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3FCD77621FB98A800163476 /* PBXTargetDependency */,
+			);
+			name = AprendendoCloudkitTests;
+			productName = AprendendoCloudkitTests;
+			productReference = E3FCD77421FB98A800163476 /* AprendendoCloudkitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3FCD77E21FB98A800163476 /* AprendendoCloudkitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3FCD78E21FB98A800163476 /* Build configuration list for PBXNativeTarget "AprendendoCloudkitUITests" */;
+			buildPhases = (
+				E3FCD77B21FB98A800163476 /* Sources */,
+				E3FCD77C21FB98A800163476 /* Frameworks */,
+				E3FCD77D21FB98A800163476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3FCD78121FB98A800163476 /* PBXTargetDependency */,
+			);
+			name = AprendendoCloudkitUITests;
+			productName = AprendendoCloudkitUITests;
+			productReference = E3FCD77F21FB98A800163476 /* AprendendoCloudkitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3FCD75821FB98A600163476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Elias Paulino";
+				TargetAttributes = {
+					E3FCD75F21FB98A600163476 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E3FCD77321FB98A800163476 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E3FCD75F21FB98A600163476;
+					};
+					E3FCD77E21FB98A800163476 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E3FCD75F21FB98A600163476;
+					};
+				};
+			};
+			buildConfigurationList = E3FCD75B21FB98A600163476 /* Build configuration list for PBXProject "AprendendoCloudkit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3FCD75721FB98A600163476;
+			productRefGroup = E3FCD76121FB98A600163476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3FCD75F21FB98A600163476 /* AprendendoCloudkit */,
+				E3FCD77321FB98A800163476 /* AprendendoCloudkitTests */,
+				E3FCD77E21FB98A800163476 /* AprendendoCloudkitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3FCD75E21FB98A600163476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FCD76E21FB98A800163476 /* LaunchScreen.storyboard in Resources */,
+				E3FCD76B21FB98A800163476 /* Assets.xcassets in Resources */,
+				E3FCD76921FB98A600163476 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FCD77221FB98A800163476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FCD77D21FB98A800163476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3FCD75C21FB98A600163476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FCD76621FB98A600163476 /* ViewController.swift in Sources */,
+				E3FCD76421FB98A600163476 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FCD77021FB98A800163476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FCD77921FB98A800163476 /* AprendendoCloudkitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FCD77B21FB98A800163476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FCD78421FB98A800163476 /* AprendendoCloudkitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3FCD77621FB98A800163476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3FCD75F21FB98A600163476 /* AprendendoCloudkit */;
+			targetProxy = E3FCD77521FB98A800163476 /* PBXContainerItemProxy */;
+		};
+		E3FCD78121FB98A800163476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3FCD75F21FB98A600163476 /* AprendendoCloudkit */;
+			targetProxy = E3FCD78021FB98A800163476 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3FCD76721FB98A600163476 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3FCD76821FB98A600163476 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3FCD76C21FB98A800163476 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3FCD76D21FB98A800163476 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3FCD78621FB98A800163476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3FCD78721FB98A800163476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3FCD78921FB98A800163476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8P97P3QB4;
+				INFOPLIST_FILE = AprendendoCloudkit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = paulino.elias.AprendendoCloudkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3FCD78A21FB98A800163476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8P97P3QB4;
+				INFOPLIST_FILE = AprendendoCloudkit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = paulino.elias.AprendendoCloudkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3FCD78C21FB98A800163476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8P97P3QB4;
+				INFOPLIST_FILE = AprendendoCloudkitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = paulino.elias.AprendendoCloudkitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AprendendoCloudkit.app/AprendendoCloudkit";
+			};
+			name = Debug;
+		};
+		E3FCD78D21FB98A800163476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8P97P3QB4;
+				INFOPLIST_FILE = AprendendoCloudkitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = paulino.elias.AprendendoCloudkitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AprendendoCloudkit.app/AprendendoCloudkit";
+			};
+			name = Release;
+		};
+		E3FCD78F21FB98A800163476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8P97P3QB4;
+				INFOPLIST_FILE = AprendendoCloudkitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = paulino.elias.AprendendoCloudkitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AprendendoCloudkit;
+			};
+			name = Debug;
+		};
+		E3FCD79021FB98A800163476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8P97P3QB4;
+				INFOPLIST_FILE = AprendendoCloudkitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = paulino.elias.AprendendoCloudkitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AprendendoCloudkit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3FCD75B21FB98A600163476 /* Build configuration list for PBXProject "AprendendoCloudkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FCD78621FB98A800163476 /* Debug */,
+				E3FCD78721FB98A800163476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3FCD78821FB98A800163476 /* Build configuration list for PBXNativeTarget "AprendendoCloudkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FCD78921FB98A800163476 /* Debug */,
+				E3FCD78A21FB98A800163476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3FCD78B21FB98A800163476 /* Build configuration list for PBXNativeTarget "AprendendoCloudkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FCD78C21FB98A800163476 /* Debug */,
+				E3FCD78D21FB98A800163476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3FCD78E21FB98A800163476 /* Build configuration list for PBXNativeTarget "AprendendoCloudkitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FCD78F21FB98A800163476 /* Debug */,
+				E3FCD79021FB98A800163476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3FCD75821FB98A600163476 /* Project object */;
+}
