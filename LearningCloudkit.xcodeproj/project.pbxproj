@@ -10,7 +10,6 @@
 		E37689F921FCE43B009EA823 /* NotificationServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37689F821FCE43B009EA823 /* NotificationServiceDelegate.swift */; };
 		E37689FB21FD02EF009EA823 /* CloudKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37689FA21FD02EF009EA823 /* CloudKitService.swift */; };
 		E37689FD21FD090B009EA823 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37689FC21FD090B009EA823 /* Users.swift */; };
-		E37689FF21FD1A05009EA823 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37689FE21FD1A05009EA823 /* TestViewController.swift */; };
 		E3FCD76421FB98A600163476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD76321FB98A600163476 /* AppDelegate.swift */; };
 		E3FCD76621FB98A600163476 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD76521FB98A600163476 /* ViewController.swift */; };
 		E3FCD76921FB98A600163476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FCD76721FB98A600163476 /* Main.storyboard */; };
@@ -52,7 +51,6 @@
 		E37689F821FCE43B009EA823 /* NotificationServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationServiceDelegate.swift; sourceTree = "<group>"; };
 		E37689FA21FD02EF009EA823 /* CloudKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitService.swift; sourceTree = "<group>"; };
 		E37689FC21FD090B009EA823 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
-		E37689FE21FD1A05009EA823 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		E3FCD76021FB98A600163476 /* AprendendoCloudkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AprendendoCloudkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FCD76321FB98A600163476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3FCD76521FB98A600163476 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -198,7 +196,6 @@
 			children = (
 				E3FCD76521FB98A600163476 /* ViewController.swift */,
 				E3FCD7A821FCB7EE00163476 /* AddViewController.swift */,
-				E37689FE21FD1A05009EA823 /* TestViewController.swift */,
 			);
 			path = Constrollers;
 			sourceTree = "<group>";
@@ -382,7 +379,6 @@
 				E37689FB21FD02EF009EA823 /* CloudKitService.swift in Sources */,
 				E3FCD7A021FCA2BB00163476 /* PredicateMounter.swift in Sources */,
 				E3FCD79921FBBCD900163476 /* CloudObject.swift in Sources */,
-				E37689FF21FD1A05009EA823 /* TestViewController.swift in Sources */,
 				E3FCD7B021FCC24C00163476 /* PostTableViewCell.swift in Sources */,
 				E37689F921FCE43B009EA823 /* NotificationServiceDelegate.swift in Sources */,
 				E3FCD76421FB98A600163476 /* AppDelegate.swift in Sources */,

@@ -41,9 +41,16 @@ class AddViewController: UIViewController {
                     })
                 }
             }) { (error) in
-                print(error)
+                self.showError()
             }
         }
+    }
+    
+    func showError() {
+        let alertController = UIAlertController.init(title: "Error", message: "Any Bad Thing Happen", preferredStyle: .actionSheet)
+        alertController.addAction(UIAlertAction.init(title: "OK", style: .cancel, handler: { (action) in
+            alertController.dismiss(animated: true, completion: nil)
+        }))
     }
     
     @IBAction func cancelTapped(_ sender: Any) {
