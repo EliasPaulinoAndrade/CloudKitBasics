@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E37689F921FCE43B009EA823 /* NotificationServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37689F821FCE43B009EA823 /* NotificationServiceDelegate.swift */; };
+		E37689FB21FD02EF009EA823 /* CloudKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37689FA21FD02EF009EA823 /* CloudKitService.swift */; };
+		E37689FD21FD090B009EA823 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37689FC21FD090B009EA823 /* Users.swift */; };
+		E37689FF21FD1A05009EA823 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37689FE21FD1A05009EA823 /* TestViewController.swift */; };
 		E3FCD76421FB98A600163476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD76321FB98A600163476 /* AppDelegate.swift */; };
 		E3FCD76621FB98A600163476 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD76521FB98A600163476 /* ViewController.swift */; };
 		E3FCD76921FB98A600163476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FCD76721FB98A600163476 /* Main.storyboard */; };
@@ -14,6 +18,17 @@
 		E3FCD76E21FB98A800163476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FCD76C21FB98A800163476 /* LaunchScreen.storyboard */; };
 		E3FCD77921FB98A800163476 /* AprendendoCloudkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD77821FB98A800163476 /* AprendendoCloudkitTests.swift */; };
 		E3FCD78421FB98A800163476 /* AprendendoCloudkitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD78321FB98A800163476 /* AprendendoCloudkitUITests.swift */; };
+		E3FCD79421FB98F100163476 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FCD79321FB98F100163476 /* CloudKit.framework */; };
+		E3FCD79721FBBC2500163476 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD79621FBBC2400163476 /* Post.swift */; };
+		E3FCD79921FBBCD900163476 /* CloudObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD79821FBBCD900163476 /* CloudObject.swift */; };
+		E3FCD7A021FCA2BB00163476 /* PredicateMounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD79F21FCA2BB00163476 /* PredicateMounter.swift */; };
+		E3FCD7A221FCA87E00163476 /* MounterOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD7A121FCA87E00163476 /* MounterOperation.swift */; };
+		E3FCD7A421FCB06800163476 /* Nota.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD7A321FCB06800163476 /* Nota.swift */; };
+		E3FCD7A921FCB7EE00163476 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD7A821FCB7EE00163476 /* AddViewController.swift */; };
+		E3FCD7AC21FCC08A00163476 /* AddViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD7AB21FCC08A00163476 /* AddViewControllerDelegate.swift */; };
+		E3FCD7B021FCC24C00163476 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD7AE21FCC24C00163476 /* PostTableViewCell.swift */; };
+		E3FCD7B121FCC24C00163476 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3FCD7AF21FCC24C00163476 /* PostTableViewCell.xib */; };
+		E3FCD7B421FCCE0700163476 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD7B321FCCE0700163476 /* NotificationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E37689F821FCE43B009EA823 /* NotificationServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationServiceDelegate.swift; sourceTree = "<group>"; };
+		E37689FA21FD02EF009EA823 /* CloudKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitService.swift; sourceTree = "<group>"; };
+		E37689FC21FD090B009EA823 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		E37689FE21FD1A05009EA823 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		E3FCD76021FB98A600163476 /* AprendendoCloudkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AprendendoCloudkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FCD76321FB98A600163476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3FCD76521FB98A600163476 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +66,18 @@
 		E3FCD77F21FB98A800163476 /* AprendendoCloudkitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AprendendoCloudkitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FCD78321FB98A800163476 /* AprendendoCloudkitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendendoCloudkitUITests.swift; sourceTree = "<group>"; };
 		E3FCD78521FB98A800163476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3FCD79121FB98E100163476 /* AprendendoCloudkit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AprendendoCloudkit.entitlements; sourceTree = "<group>"; };
+		E3FCD79321FB98F100163476 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		E3FCD79621FBBC2400163476 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		E3FCD79821FBBCD900163476 /* CloudObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudObject.swift; sourceTree = "<group>"; };
+		E3FCD79F21FCA2BB00163476 /* PredicateMounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredicateMounter.swift; sourceTree = "<group>"; };
+		E3FCD7A121FCA87E00163476 /* MounterOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MounterOperation.swift; sourceTree = "<group>"; };
+		E3FCD7A321FCB06800163476 /* Nota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nota.swift; sourceTree = "<group>"; };
+		E3FCD7A821FCB7EE00163476 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		E3FCD7AB21FCC08A00163476 /* AddViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewControllerDelegate.swift; sourceTree = "<group>"; };
+		E3FCD7AE21FCC24C00163476 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		E3FCD7AF21FCC24C00163476 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		E3FCD7B321FCCE0700163476 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FCD79421FB98F100163476 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +113,7 @@
 				E3FCD77721FB98A800163476 /* AprendendoCloudkitTests */,
 				E3FCD78221FB98A800163476 /* AprendendoCloudkitUITests */,
 				E3FCD76121FB98A600163476 /* Products */,
+				E3FCD79221FB98F100163476 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +130,14 @@
 		E3FCD76221FB98A600163476 /* AprendendoCloudkit */ = {
 			isa = PBXGroup;
 			children = (
+				E3FCD7AD21FCC23500163476 /* Views */,
+				E3FCD7AA21FCC07100163476 /* Delegates */,
+				E3FCD7A621FCB32C00163476 /* Constrollers */,
+				E3FCD7A521FCB32200163476 /* Models */,
+				E3FCD7B221FCCDE500163476 /* NotificationService */,
+				E3FCD79521FBBC1900163476 /* CloudKitService */,
+				E3FCD79121FB98E100163476 /* AprendendoCloudkit.entitlements */,
 				E3FCD76321FB98A600163476 /* AppDelegate.swift */,
-				E3FCD76521FB98A600163476 /* ViewController.swift */,
 				E3FCD76721FB98A600163476 /* Main.storyboard */,
 				E3FCD76A21FB98A800163476 /* Assets.xcassets */,
 				E3FCD76C21FB98A800163476 /* LaunchScreen.storyboard */,
@@ -123,6 +162,71 @@
 				E3FCD78521FB98A800163476 /* Info.plist */,
 			);
 			path = AprendendoCloudkitUITests;
+			sourceTree = "<group>";
+		};
+		E3FCD79221FB98F100163476 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3FCD79321FB98F100163476 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3FCD79521FBBC1900163476 /* CloudKitService */ = {
+			isa = PBXGroup;
+			children = (
+				E3FCD79821FBBCD900163476 /* CloudObject.swift */,
+				E3FCD79F21FCA2BB00163476 /* PredicateMounter.swift */,
+				E3FCD7A121FCA87E00163476 /* MounterOperation.swift */,
+				E37689FA21FD02EF009EA823 /* CloudKitService.swift */,
+			);
+			path = CloudKitService;
+			sourceTree = "<group>";
+		};
+		E3FCD7A521FCB32200163476 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3FCD7A321FCB06800163476 /* Nota.swift */,
+				E3FCD79621FBBC2400163476 /* Post.swift */,
+				E37689FC21FD090B009EA823 /* Users.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E3FCD7A621FCB32C00163476 /* Constrollers */ = {
+			isa = PBXGroup;
+			children = (
+				E3FCD76521FB98A600163476 /* ViewController.swift */,
+				E3FCD7A821FCB7EE00163476 /* AddViewController.swift */,
+				E37689FE21FD1A05009EA823 /* TestViewController.swift */,
+			);
+			path = Constrollers;
+			sourceTree = "<group>";
+		};
+		E3FCD7AA21FCC07100163476 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E3FCD7AB21FCC08A00163476 /* AddViewControllerDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		E3FCD7AD21FCC23500163476 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E3FCD7AE21FCC24C00163476 /* PostTableViewCell.swift */,
+				E3FCD7AF21FCC24C00163476 /* PostTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E3FCD7B221FCCDE500163476 /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				E3FCD7B321FCCE0700163476 /* NotificationService.swift */,
+				E37689F821FCE43B009EA823 /* NotificationServiceDelegate.swift */,
+			);
+			path = NotificationService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +297,17 @@
 				TargetAttributes = {
 					E3FCD75F21FB98A600163476 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					E3FCD77321FB98A800163476 = {
 						CreatedOnToolsVersion = 10.1;
@@ -204,7 +319,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E3FCD75B21FB98A600163476 /* Build configuration list for PBXProject "AprendendoCloudkit" */;
+			buildConfigurationList = E3FCD75B21FB98A600163476 /* Build configuration list for PBXProject "LearningCloudkit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -232,6 +347,7 @@
 				E3FCD76E21FB98A800163476 /* LaunchScreen.storyboard in Resources */,
 				E3FCD76B21FB98A800163476 /* Assets.xcassets in Resources */,
 				E3FCD76921FB98A600163476 /* Main.storyboard in Resources */,
+				E3FCD7B121FCC24C00163476 /* PostTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +372,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FCD7A421FCB06800163476 /* Nota.swift in Sources */,
+				E3FCD7B421FCCE0700163476 /* NotificationService.swift in Sources */,
+				E3FCD79721FBBC2500163476 /* Post.swift in Sources */,
+				E3FCD7A921FCB7EE00163476 /* AddViewController.swift in Sources */,
 				E3FCD76621FB98A600163476 /* ViewController.swift in Sources */,
+				E3FCD7A221FCA87E00163476 /* MounterOperation.swift in Sources */,
+				E37689FD21FD090B009EA823 /* Users.swift in Sources */,
+				E37689FB21FD02EF009EA823 /* CloudKitService.swift in Sources */,
+				E3FCD7A021FCA2BB00163476 /* PredicateMounter.swift in Sources */,
+				E3FCD79921FBBCD900163476 /* CloudObject.swift in Sources */,
+				E37689FF21FD1A05009EA823 /* TestViewController.swift in Sources */,
+				E3FCD7B021FCC24C00163476 /* PostTableViewCell.swift in Sources */,
+				E37689F921FCE43B009EA823 /* NotificationServiceDelegate.swift in Sources */,
 				E3FCD76421FB98A600163476 /* AppDelegate.swift in Sources */,
+				E3FCD7AC21FCC08A00163476 /* AddViewControllerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +561,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AprendendoCloudkit/AprendendoCloudkit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z8P97P3QB4;
 				INFOPLIST_FILE = AprendendoCloudkit/Info.plist;
@@ -450,6 +580,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AprendendoCloudkit/AprendendoCloudkit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z8P97P3QB4;
 				INFOPLIST_FILE = AprendendoCloudkit/Info.plist;
@@ -549,7 +680,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E3FCD75B21FB98A600163476 /* Build configuration list for PBXProject "AprendendoCloudkit" */ = {
+		E3FCD75B21FB98A600163476 /* Build configuration list for PBXProject "LearningCloudkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3FCD78621FB98A800163476 /* Debug */,
