@@ -56,7 +56,7 @@ class NotificationService: NSObject, UNUserNotificationCenterDelegate {
         let ckNotification = CKQueryNotification.init(fromRemoteNotificationDictionary: notification.request.content.userInfo)
         
         if let recordID = ckNotification.recordID {
-            Post.findBy(field: "recordID", .equalTo, recordID, result: { (posts) in
+            Post.findBy(field: "recordID", .equalTo, recordID, result: { (posts: [Post]?) in
                 if let post = posts?.first {
                     
                     DispatchQueue.main.async {

@@ -54,7 +54,7 @@ class ViewController: UIViewController {
     func loadAllPosts() {
         let sortDescriptor = NSSortDescriptor.init(key: "date", ascending: false)
         
-        Post.all(withSortDescriptors: [sortDescriptor], result: { (posts) in
+        Post.all(withSortDescriptors: [sortDescriptor], result: { (posts: [Post]?) in
             self.posts = posts
             
             self.loadAuthors(fromPosts: posts)
@@ -71,7 +71,7 @@ class ViewController: UIViewController {
     func loadPosts(fromUser userReference: CKRecord.Reference) {
         let sortDescriptor = NSSortDescriptor.init(key: "date", ascending: false)
         
-        Post.findBy(field: "author", .equalTo, userReference, withSortDescriptors: [sortDescriptor], result: { (posts) in
+        Post.findBy(field: "author", .equalTo, userReference, withSortDescriptors: [sortDescriptor], result: { (posts: [Post]?) in
             self.posts = posts
             
             self.loadAuthors(fromPosts: posts)

@@ -89,6 +89,32 @@ class PredicateMounter<T: CloudObject> {
             )
         }
     }
+    
+    /// Realiza a busca por meio do NSPredicate montado
+    ///
+    /// - Parameters:
+    ///   - database: a database na qual procurar, padrao é a publica do container padrao
+    ///   - result: a completion de sucess
+    ///   - errorCase: a completion de erro
+    func run(inDatabase database: CKDatabase = CKContainer.default().publicCloudDatabase,
+             withSortDescriptors sortDescriptors: [NSSortDescriptor] = [],
+             result: @escaping ([CKRecord]?) -> (),
+             errorCase: @escaping (Error) -> ()) {
+        
+        let predicate = self.nsPredicate()
+        let query = CKQuery.init(recordType: T.defaultRecordType, predicate: predicate)
+        query.sortDescriptors = sortDescriptors
+        
+        database.perform(query, inZoneWith: nil) { (records, error) in
+            if let error = error {
+                errorCase(error)
+                return
+            }
+            
+            result(records)
+        }
+    }
+    
     struct PredicatePart {
         var field: String
         var operation: MounterOperation

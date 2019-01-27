@@ -150,6 +150,26 @@ extension CloudObject {
     ///   - result: completion de sucesso
     ///   - errorCase: completion de erro
     static func findBy(field: String,
+                       _ operation: MounterOperation,
+                       _ value: Any,
+                       inDatabase database: CKDatabase = CKContainer.default().publicCloudDatabase,
+                       withSortDescriptors sortDescriptors: [NSSortDescriptor] = [],
+                       result: @escaping ([CKRecord]?) -> (),
+                       errorCase: @escaping (Error) -> ()) {
+        
+        let mounter = PredicateMounter<Self>.init(field: field, operation, withValue: value)
+        mounter.run(inDatabase: database, withSortDescriptors: sortDescriptors, result: result, errorCase: errorCase)
+    }
+    
+    /// Busca objetos de um tipo na nuvem por meio de um parametro
+    ///
+    /// - Parameters:
+    ///   - field: o nome do field parametro para busca
+    ///   - value: o valor base desse field
+    ///   - database: a database na qual procurar, padrao é a publica do container padrao
+    ///   - result: completion de sucesso
+    ///   - errorCase: completion de erro
+    static func findBy(field: String,
                 _ operation: MounterOperation,
                 _ value: Any,
                 inDatabase database: CKDatabase = CKContainer.default().publicCloudDatabase,
@@ -176,6 +196,29 @@ extension CloudObject {
         return mounter
     }
     
+    /// Busca todos os objetos de um tipo no banco
+    ///
+    /// - Parameters:
+    ///   - database: a database na qual procurar, padrao é a publica do container padrao
+    ///   - result: completion de sucesso
+    ///   - errorCase: completion de erro
+    static func all(inDatabase database: CKDatabase = CKContainer.default().publicCloudDatabase,
+                    withSortDescriptors sortDescriptors: [NSSortDescriptor] = [],
+                    result: @escaping ([CKRecord]?) -> (),
+                    errorCase: @escaping (Error) -> ()) {
+        let predicate = NSPredicate.init(value: true)
+        let query = CKQuery.init(recordType: Self.defaultRecordType, predicate: predicate)
+        query.sortDescriptors = sortDescriptors
+        
+        database.perform(query, inZoneWith: nil) { (records, error) in
+            if let error = error {
+                errorCase(error)
+                return
+            }
+            
+            result(records)
+        }
+    }
     
     /// Busca todos os objetos de um tipo no banco
     ///

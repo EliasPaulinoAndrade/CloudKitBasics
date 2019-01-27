@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bh7-an-UVd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s5F-98-QSy">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -30,7 +30,7 @@
                                 </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MXG-ol-17d">
-                                <rect key="frame" x="0.0" y="164" width="375" height="503"/>
+                                <rect key="frame" x="0.0" y="164" width="375" height="454"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
@@ -60,7 +60,40 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HsG-hL-PK7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="472.80000000000001" y="86.806596701649184"/>
+            <point key="canvasLocation" x="1412" y="86.806596701649184"/>
+        </scene>
+        <!--Colab-->
+        <scene sceneID="y25-Vt-icD">
+            <objects>
+                <viewController id="ZXS-BU-Ag6" customClass="ColabViewController" customModule="AprendendoCloudkit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cbp-8z-1ll">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="udb-bE-bRs">
+                                <rect key="frame" x="10" y="126" width="355" height="482"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="udb-bE-bRs" firstAttribute="top" secondItem="uKH-v0-RWt" secondAttribute="top" constant="10" id="0tM-K8-xmM"/>
+                            <constraint firstItem="udb-bE-bRs" firstAttribute="leading" secondItem="uKH-v0-RWt" secondAttribute="leading" constant="10" id="Ky7-fp-45u"/>
+                            <constraint firstItem="uKH-v0-RWt" firstAttribute="bottom" secondItem="udb-bE-bRs" secondAttribute="bottom" constant="10" id="eCq-94-7J5"/>
+                            <constraint firstItem="uKH-v0-RWt" firstAttribute="trailing" secondItem="udb-bE-bRs" secondAttribute="trailing" constant="10" id="lTm-0D-x8F"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uKH-v0-RWt"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colab" id="Qbv-wS-eYw"/>
+                    <connections>
+                        <outlet property="colabTextView" destination="udb-bE-bRs" id="eyn-zl-Zr5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hn5-Gq-wk6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1412" y="861"/>
         </scene>
         <!--Post Creation-->
         <scene sceneID="tne-QT-ifu">
@@ -118,12 +151,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2335.1999999999998" y="86.806596701649184"/>
+            <point key="canvasLocation" x="3274.4000000000001" y="86.806596701649184"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Posts-->
         <scene sceneID="81M-HB-swq">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Bh7-an-UVd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Posts" id="4Zn-IA-nEH"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="3c3-KG-B8u">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
@@ -136,7 +170,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e6l-cV-JDq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-466.39999999999998" y="86.806596701649184"/>
+            <point key="canvasLocation" x="472.80000000000001" y="86.806596701649184"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XO1-PN-LJz">
@@ -154,7 +188,45 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XPE-Zw-38c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1396" y="86.806596701649184"/>
+            <point key="canvasLocation" x="2335.1999999999998" y="86.806596701649184"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="GCH-hr-fd1">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="s5F-98-QSy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TaP-da-s65">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Bh7-an-UVd" kind="relationship" relationship="viewControllers" id="M2k-oB-cRr"/>
+                        <segue destination="B1K-SQ-Q3Y" kind="relationship" relationship="viewControllers" id="lNb-a3-U3c"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hal-OX-a8y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-466.39999999999998" y="86.806596701649184"/>
+        </scene>
+        <!--Colab-->
+        <scene sceneID="ahS-kn-pcr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="B1K-SQ-Q3Y" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Colab" id="Dn9-TJ-ePV"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="PmE-cp-Mz9">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ZXS-BU-Ag6" kind="relationship" relationship="rootViewController" id="itr-my-ncI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="saF-vr-ll5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="473" y="862"/>
         </scene>
     </scenes>
 </document>
