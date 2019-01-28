@@ -12,6 +12,7 @@
 		E37689FD21FD090B009EA823 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37689FC21FD090B009EA823 /* Users.swift */; };
 		E3B6D18821FD4FC40000D77C /* ColabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6D18721FD4FC40000D77C /* ColabViewController.swift */; };
 		E3B6D18A21FD512F0000D77C /* Colab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6D18921FD512F0000D77C /* Colab.swift */; };
+		E3B6D18D21FDD12A0000D77C /* String+progression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6D18C21FDD12A0000D77C /* String+progression.swift */; };
 		E3FCD76421FB98A600163476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD76321FB98A600163476 /* AppDelegate.swift */; };
 		E3FCD76621FB98A600163476 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FCD76521FB98A600163476 /* ViewController.swift */; };
 		E3FCD76921FB98A600163476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FCD76721FB98A600163476 /* Main.storyboard */; };
@@ -55,6 +56,7 @@
 		E37689FC21FD090B009EA823 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		E3B6D18721FD4FC40000D77C /* ColabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColabViewController.swift; sourceTree = "<group>"; };
 		E3B6D18921FD512F0000D77C /* Colab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colab.swift; sourceTree = "<group>"; };
+		E3B6D18C21FDD12A0000D77C /* String+progression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+progression.swift"; sourceTree = "<group>"; };
 		E3FCD76021FB98A600163476 /* AprendendoCloudkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AprendendoCloudkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FCD76321FB98A600163476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3FCD76521FB98A600163476 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E3B6D18B21FDD1180000D77C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E3B6D18C21FDD12A0000D77C /* String+progression.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E3FCD75721FB98A600163476 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +142,7 @@
 		E3FCD76221FB98A600163476 /* AprendendoCloudkit */ = {
 			isa = PBXGroup;
 			children = (
+				E3B6D18B21FDD1180000D77C /* Extensions */,
 				E3FCD7AD21FCC23500163476 /* Views */,
 				E3FCD7AA21FCC07100163476 /* Delegates */,
 				E3FCD7A621FCB32C00163476 /* Constrollers */,
@@ -384,6 +395,7 @@
 				E3FCD7A221FCA87E00163476 /* MounterOperation.swift in Sources */,
 				E3B6D18A21FD512F0000D77C /* Colab.swift in Sources */,
 				E37689FD21FD090B009EA823 /* Users.swift in Sources */,
+				E3B6D18D21FDD12A0000D77C /* String+progression.swift in Sources */,
 				E37689FB21FD02EF009EA823 /* CloudKitService.swift in Sources */,
 				E3FCD7A021FCA2BB00163476 /* PredicateMounter.swift in Sources */,
 				E3FCD79921FBBCD900163476 /* CloudObject.swift in Sources */,

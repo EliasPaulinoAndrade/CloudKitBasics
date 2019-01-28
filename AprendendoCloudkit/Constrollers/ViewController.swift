@@ -40,7 +40,7 @@ class ViewController: UIViewController {
                 }
             }
         }) { (error) in
-            self.showError()
+            self.loadAllPosts()
         }
     }
     
@@ -49,6 +49,7 @@ class ViewController: UIViewController {
         alertController.addAction(UIAlertAction.init(title: "OK", style: .cancel, handler: { (action) in
             alertController.dismiss(animated: true, completion: nil)
         }))
+        present(alertController, animated: true, completion: nil)
     }
     
     func loadAllPosts() {
@@ -63,7 +64,8 @@ class ViewController: UIViewController {
                 self.tableView.reloadData()
             }
         }, errorCase: { (error) in
-            print(error)
+            
+            self.showError()
         })
     }
     
@@ -80,7 +82,7 @@ class ViewController: UIViewController {
                 self.tableView.reloadData()
             }
         }) { (error) in
-            print(error)
+            self.showError()
         }
     }
     
@@ -112,10 +114,16 @@ class ViewController: UIViewController {
     }
     
     @IBAction func segmentedChanged(_ sender: Any) {
-        if self.postsSegmentedControl.selectedSegmentIndex == 0 {
+        
+        if self.postsSegmentedControl.selectedSegmentIndex == 1 {
+            if let userReference = self.userReference {
+                self.loadPosts(fromUser: userReference)
+            } else {
+                self.posts = []
+                self.tableView.reloadData()
+            }
+        } else if self.postsSegmentedControl.selectedSegmentIndex == 0{
             self.loadAllPosts()
-        } else if let userReference = self.userReference {
-            self.loadPosts(fromUser: userReference)
         }
     }
     

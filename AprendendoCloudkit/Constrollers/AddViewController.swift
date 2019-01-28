@@ -43,6 +43,8 @@ class AddViewController: UIViewController {
             }) { (error) in
                 self.showError()
             }
+        } else {
+            self.showError()
         }
     }
     
@@ -51,6 +53,7 @@ class AddViewController: UIViewController {
         alertController.addAction(UIAlertAction.init(title: "OK", style: .cancel, handler: { (action) in
             alertController.dismiss(animated: true, completion: nil)
         }))
+        present(alertController, animated: true, completion: nil)
     }
     
     @IBAction func cancelTapped(_ sender: Any) {

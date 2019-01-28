@@ -43,7 +43,6 @@ class NotificationService: NSObject, UNUserNotificationCenterDelegate {
         }
     }
     
-    
     /// É chamado quando uma notificação está prestes a ser mostrada, aqui o record modificado na nuvem é
     /// buscado, e enviado pelo delegate, que deve trata-lo
     ///
@@ -51,9 +50,8 @@ class NotificationService: NSObject, UNUserNotificationCenterDelegate {
     ///   - center: o notification center
     ///   - notification: a notification contendo informacoes, por exemplo, o corpo na notificacao
     ///   - completionHandler: chamado para dar continuidade ao fluxo da notificacao
-    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
-        
-        let ckNotification = CKQueryNotification.init(fromRemoteNotificationDictionary: notification.request.content.userInfo)
+    func receivedNotification(userInfo: [AnyHashable : Any]) {
+        let ckNotification = CKQueryNotification.init(fromRemoteNotificationDictionary: userInfo)
         
         if let recordID = ckNotification.recordID {
             Post.findBy(field: "recordID", .equalTo, recordID, result: { (posts: [Post]?) in
@@ -67,8 +65,6 @@ class NotificationService: NSObject, UNUserNotificationCenterDelegate {
                 print(error)
             }
         }
-        
-        return completionHandler([])
     }
     
     
@@ -98,7 +94,9 @@ class NotificationService: NSObject, UNUserNotificationCenterDelegate {
                 
                 subscription.notificationInfo = notification
                 
-                CKContainer.default().publicCloudDatabase.save(subscription) { (subscription, error) in }
+                CKContainer.default().publicCloudDatabase.save(subscription) { (_, error) in
+                    print(error)
+                }
             }
         }
     }
